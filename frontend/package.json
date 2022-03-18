@@ -1,0 +1,28 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js ./"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "cookie-universal-nuxt": "^2.1.5",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3",
+    "vee-validate": "3.2.0"
+  },
+  "devDependencies": {
+    "@indielayer/eslint-config": "^1.0.0",
+    "eslint": "^6.8.0",
+    "fibers": "^5.0.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^10.2.0"
+  }
+}
